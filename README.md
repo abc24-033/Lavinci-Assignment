@@ -1,2 +1,2 @@
-# Inq
-Company that sells wifi and stuff
+# Lavinci
+A gallery that showcases local art and its exhibits
