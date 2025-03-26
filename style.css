@@ -1,7 +1,8 @@
 body {
 font-family: Arial, sans-serif;
 color: #333;
-background-image: url(https://github.com/abc24-033/Lavinci-Assignment/blob/main/background.jpg?raw=true alt);
+background-image: https://github.com/abc24-033/Lavinci-Assignment/blob/main/background.jpg?raw=true alt;
+
 margin: 0;
 padding: 0;
 line-height: 1.6;
