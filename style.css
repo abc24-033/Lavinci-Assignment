@@ -5,6 +5,22 @@
 	font-family: 'Poppins', sans-serif;
 
 }
+body {
+	font-family: 'Poppins', san-serif;
+	line-height: 1.7;
+	color: (rgba(215,167,144),rgba(215,167,144));
+	background-color: (rgba(215,167,144),rgba(215,167,144));
+	overflow-x: hidden;
+}
+header {
+	background-color:
+	position: fixed;
+	width: 50%;
+	top: 0;
+	z-index: 1000;
+	padding: 10px 0;
+}
+	
 .hero{
 	width: 50%;
 	height: 50vh;
@@ -44,4 +60,9 @@ nav ul li{
 	color: #7B3F00;
 	font-weight: 600;
 }
-	
+footer {
+	background: (rgba(215,167,144),rgba(215,167,144));
+	color: white;
+	padding: 50px 20px;
+	text-align: center;
+	margin-top: 50px;
