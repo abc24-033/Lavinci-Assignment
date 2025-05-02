@@ -11,6 +11,7 @@ body {
 	color: (rgba(215,167,144),rgba(215,167,144));
 	background-color: (rgba(215,167,144),rgba(215,167,144));
 	overflow-x: hidden;
+	text-align: center;
 }
 header {
 	background-color:
