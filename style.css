@@ -159,18 +159,6 @@ main p {
   transition: background-color 0.3s ease, transform 0.2s ease;
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #fdfaf6;
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
-  background-image: url('https://github.com/abc24-033/Lavinci-Assignment/blob/main/shared%20image.jpg?raw=true');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
 .artist-button:hover {
   background-color: #a74f15;
   transform: translateY(-2px);
