@@ -162,10 +162,10 @@ main p {
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fdfaf6;
-  color: #333; /* <-- This sets the default text color for the whole page */
+  color: #333;
   line-height: 1.6;
   padding: 20px;
-  background-image: url('...');
+  background-image: url('https://github.com/abc24-033/Lavinci-Assignment/blob/main/shared%20image.jpg?raw=true');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
