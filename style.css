@@ -244,3 +244,50 @@ footer {
 .newsletter-signup button:hover {
   background-color: #a74f15;
 }
+.shop-page {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.shop-page p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.shop-category {
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #fdfaf6;
+  border-left: 6px solid #a74f15;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.shop-category h2 {
+  color: #a74f15;
+  margin-bottom: 10px;
+}
+
+.shop-category p {
+  font-size: 1.05rem;
+  color: #444;
+}
+
+.shop-note {
+  background-color: #f8f4ef;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.shop-note p {
+  color: #333;
+  font-size: 1rem;
+}
