@@ -124,24 +124,7 @@ body::before {
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background-image: url('texture-background.png>') <div class="image-row">
-  <img src="image1.jpg" alt="Image 1">
-  <img src="image2.jpg" alt="Image 2">
-</div>
-  image-row {
-  display: flex;
-  justify-content: center;
-  gap: 20px; /* space between the images */
-  padding: 20px;
-}
-
-.image-row img {
-  width: 45%; /* each image takes up 45% of the container */
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  object-fit: cover;
-}
+  background-image: url('texture-background.png>') 
   opacity: 0.03;
   z-index: -1;
 }
