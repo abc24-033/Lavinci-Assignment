@@ -291,3 +291,18 @@ footer {
   color: #333;
   font-size: 1rem;
 }
+.shop-button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 18px;
+  background-color: #a74f15;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.shop-button:hover {
+  background-color: #823d11;
+}
