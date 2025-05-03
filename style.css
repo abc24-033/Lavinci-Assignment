@@ -140,7 +140,6 @@ artist main {
   margin: 20px auto;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   text-align: center;
-  color: #333; 
 }
 
 main p {
@@ -160,7 +159,18 @@ main p {
   transition: background-color 0.3s ease, transform 0.2s ease;
   box-shadow: 0 2px 5px rgba(0,0,0,0.15);
 }
-
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfaf6;
+  color: #333; /* <-- This sets the default text color for the whole page */
+  line-height: 1.6;
+  padding: 20px;
+  background-image: url('...');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
 .artist-button:hover {
   background-color: #a74f15;
   transform: translateY(-2px);
