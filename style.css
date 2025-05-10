@@ -175,6 +175,17 @@ footer {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   font-size: 0.9rem;
 }
+.overlay-box {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
 /* events.html */
 body {
   font-family: Arial, sans-serif;
@@ -256,7 +267,17 @@ main {
 .newsletter-signup button:hover {
   background-color: #444;
 }
-
+.overlay-box {
+  background-color: rgba(255, 255, 255, 0.8); /* White with 80% opacity */
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
 .shop-page {
   background-color: rgba(255, 255, 255, 0.95);
   padding: 25px;
