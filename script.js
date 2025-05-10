@@ -1,5 +1,6 @@
 document.getElementById("contact-form").addEventListener("submit", function(event) {
   event.preventDefault();
+   <script src="script.js"></script>
 
   emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
     .then(function() {
