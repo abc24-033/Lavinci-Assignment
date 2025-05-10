@@ -175,77 +175,88 @@ footer {
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   font-size: 0.9rem;
 }
-.events-page {
-  background-color: rgba(255, 255, 255, 0.95);
-  padding: 25px;
-  border-radius: 10px;
-  max-width: 900px;
-  margin: 20px auto;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+/* events.html */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.events-page p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  color: #222;
+header, footer {
+  background-color: #222;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 0.5em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
 }
 
 .event {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .event h2 {
-  color: #a74f15;
-  margin-bottom: 10px;
+  margin-top: 0;
 }
 
-.event p {
-  font-size: 1.05rem;
-  color: #444;
+.event-gallery {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.event-gallery img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .newsletter-signup {
-  background-color: #fdfaf6;
+  background-color: #f4f4f4;
   padding: 20px;
   border-radius: 8px;
-  text-align: center;
-  margin-top: 30px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
 
-.newsletter-signup h3 {
-  margin-bottom: 10px;
-  color: #d2691e;
-}
-
-.newsletter-signup p {
-  margin-bottom: 15px;
-  color: #333;
+.newsletter-signup form {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .newsletter-signup input[type="email"] {
-  padding: 12px;
+  padding: 10px;
+  flex: 1;
   border: 1px solid #ccc;
-  border-radius: 6px;
-  width: 250px;
-  font-size: 1rem;
-  margin-right: 10px;
+  border-radius: 4px;
 }
 
 .newsletter-signup button {
-  background-color: #d2691e;
+  padding: 10px 20px;
+  background-color: #222;
   color: #fff;
   border: none;
-  padding: 12px 18px;
-  font-size: 1rem;
-  border-radius: 6px;
+  border-radius: 4px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
 .newsletter-signup button:hover {
-  background-color: #a74f15;
+  background-color: #444;
 }
+
 .shop-page {
   background-color: rgba(255, 255, 255, 0.95);
   padding: 25px;
