@@ -136,8 +136,8 @@ footer {
 }
 artist main {
   background-color: rgba(255, 255, 255, 0.95);
-  padding: 25px;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 8px;
   max-width: 900px;
   margin: 20px auto;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -145,17 +145,8 @@ artist main {
 }
 
 main p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: 20px;
-  background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 900px;
-    margin: 20px auto;
-    font-size: 1.1rem;
-    text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
 }
 
 .artist-button {
