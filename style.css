@@ -547,6 +547,27 @@ main p {
   font-size: 18px;
   line-height: 1.6;
 }
+/* Artist Gallery */
+.artist-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 30px auto;
+  flex-wrap: wrap;
+}
+
+.artist-gallery img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.artist-gallery img:hover {
+  transform: scale(1.05);
+}
 
 /* Artist Buttons */
 .artist-button {
