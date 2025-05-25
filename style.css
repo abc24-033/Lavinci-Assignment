@@ -224,8 +224,11 @@ main {
 .gallery img {
   flex: 1 1 33.33%;
   object-fit: cover;
-  height: 400px;
-  width: 100%;
+   width: 100%;
+  max-width: 200px;
+  height: 150px;
+  border-radius: 8px;
+}
 }
 
 .artist-buttons {
@@ -245,7 +248,7 @@ main {
 }
 
 .artist-button:hover {
-  background-color: #666;
+  background-color: #a74f15;
 }
 
 /* events.html */
