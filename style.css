@@ -700,66 +700,83 @@ main {
   top: 20px;
   left: 20px;
 }
-.shop-page {
-  background-color: rgba(255, 255, 255, 0.95);
-  padding: 25px;
-  border-radius: 10px;
-  max-width: 900px;
-  margin: 20px auto;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  color: #111;
-}
-
-.shop-page p {
-  font-size: 1.2rem;
-  margin-bottom: 20px;
-  color: #222;
-}
-
-.shop-category {
-  margin-bottom: 30px;
-  padding: 15px;
+/* Reset & Base Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
   background-color: #fdfaf6;
-  border-left: 6px solid #a74f15;
-  border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-}
-
-.shop-category h2 {
-  color: #a74f15;
-  margin-bottom: 10px;
-}
-
-.shop-category p {
-  font-size: 1.05rem;
-  color: #444;
-}
-
-.shop-note {
-  background-color: #f8f4ef;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
-  margin-top: 30px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-}
-
-.shop-note p {
   color: #333;
-  font-size: 1rem;
 }
-.shop-button {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 10px 18px;
-  background-color: #a74f15;
+
+/* Header */
+header {
+  background-color: #d2691e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
   color: #fff;
   text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 30px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Shop Categories */
+.shop-category {
+  margin: 40px 0;
+}
+
+/* Buttons */
+.shop-button {
+  display: inline-block;
+  background-color: #a74f15;
+  color: #fff;
+  padding: 12px 24px;
+  margin: 15px 0;
+  text-decoration: none;
   border-radius: 6px;
-  font-size: 1rem;
+  font-weight: 600;
   transition: background-color 0.3s ease;
 }
 
 .shop-button:hover {
-  background-color: #823d11;
+  background-color: #8a3e10;
+}
+
+/* Footer */
+footer {
+  background-color: #666;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
 }
