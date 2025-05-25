@@ -187,41 +187,75 @@ footer {
   left: 20px;
 }
 /* artists1.html */
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  background-color: #fff;
-  color: #333;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-main {
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #f5f5f5;
+  padding-top: 80px;
 }
 
+/* Navigation Bar */
 .main-nav {
+  background-color: #222;
+  padding: 20px;
   text-align: center;
-  margin: 20px 0;
-  font-size: 16px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .main-nav a {
-  color: #333;
+  color: #f5f5f5;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 18px;
+  font-size: 18px;
+  transition: color 0.3s ease;
 }
 
+.main-nav a:hover {
+  color: #ff4081;
+}
+
+/* Content Styling */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+main b {
+  font-size: 32px;
+  color: #ff4081;
+  display: block;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Image Gallery */
 .gallery {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 30px auto;
+  max-width: 1200px;
+  padding: 0 20px;
 }
 
 .gallery img {
+ transition: transform 0.3s ease;
   flex: 1 1 33.33%;
   object-fit: cover;
    width: 100%;
@@ -229,28 +263,34 @@ main {
   height: 150px;
   border-radius: 8px;
 }
+
+.gallery img:hover {
+  transform: scale(1.02);
 }
 
+/* Artist Buttons */
 .artist-buttons {
+  margin: 40px 0;
   text-align: center;
-  margin: 30px 0;
 }
 
 .artist-button {
   display: inline-block;
-  background-color: #444;
-  color: white;
-  padding: 10px 20px;
-  margin: 5px;
+  margin: 0 10px;
+  padding: 14px 30px;
+  background-color: #ff4081;
+  color: #ffffff;
   text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .artist-button:hover {
-   background-color: #a74f15;
-  transform: translateY(-2px);
+ background-color: #e91e63;
+  transform: translateY(-3px);
 }
+
 /* artist2.html  */
 * {
   margin: 0;
@@ -350,8 +390,109 @@ header nav a:hover {
 }
 
 .artist-button:hover {
-   background-color: #a74f15;
-  transform: translateY(-2px);
+  /* Reset & Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #f5f5f5;
+  padding-top: 80px;
+}
+
+/* Navigation Bar */
+.main-nav {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main-nav a {
+  color: #f5f5f5;
+  text-decoration: none;
+  margin: 0 18px;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+  color: #ff4081;
+}
+
+/* Content Styling */
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+main b {
+  font-size: 32px;
+  color: #ff4081;
+  display: block;
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Image Gallery */
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.gallery img {
+  width: 32.5%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+}
+
+/* Artist Buttons */
+.artist-buttons {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.artist-button {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 14px 30px;
+  background-color: #ff4081;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.artist-button:hover {
+  background-color: #e91e63;
+  transform: translateY(-3px);
+}
+
 }
 
 
