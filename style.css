@@ -499,6 +499,81 @@ main p {
   transform: translateY(-3px);
 }
 
+/* artist3.html */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfaf6;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #d2691e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  padding: 30px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+main p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Artist Buttons */
+.artist-button {
+  display: inline-block;
+  background-color: #a74f15;
+  color: #fff;
+  padding: 12px 20px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.artist-button:hover {
+  background-color: #8a3e10;
+}
+
+/* Footer */
+footer {
+  background-color: #666;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 14px;
+}
 
 /* events.html */
 body {
