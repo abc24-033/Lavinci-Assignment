@@ -9,7 +9,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fdfaf6;
-  color: #333;
+  color: #111;
   line-height: 1.6;
   padding: 20px;
   background-image: url('https://github.com/abc24-033/Lavinci-Assignment/blob/main/shared%20image.jpg?raw=true');
@@ -32,7 +32,7 @@ header {
 
 header h1 {
   font-size: 2.5rem;
-  color: #222;
+  color:  #a74f15;
   margin-bottom: 10px;
 }
 
