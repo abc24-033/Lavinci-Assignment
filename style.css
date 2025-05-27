@@ -271,13 +271,11 @@ main p {
 }
 
 .gallery img {
- transition: transform 0.3s ease;
-  flex: 1 1 33.33%;
-  object-fit: cover;
-   width: 80px;
-  height: 60%;
-  border-radius: 8px;
-  max-width: 50%;
+max-width: 100%;
+  height: auto; 
+  display: flex;
+  margin: 20px 0;
+   max-height: 300px;
 }
 
 /* Artist Buttons */
@@ -363,24 +361,6 @@ header nav a:hover {
   margin-bottom: 15px;
 }
 
-/* Image Gallery */
-.gallery {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 30px;
-  max-width: 50%;
-}
-
-.gallery img: {
-  transition: transform 0.3s ease;
-  flex: 1 1 33.33%;
-  object-fit: cover;
-   width: 80px;
-  height: 60%;
-  border-radius: 8px;
-  max-width: 50%;
-}
 
 /* Artist Buttons */
 .artist-buttons {
@@ -470,13 +450,11 @@ main p {
 }
 
 .gallery img {
-  transition: transform 0.3s ease;
-  flex: 1 1 33.33%;
-  object-fit: cover;
-   width: 80px;
-  max-width: 50%;
-  height: 60%;
-  border-radius: 8px;
+  max-width: 100%;
+  height: auto; 
+  display: flex;
+  margin: 20px 0;
+   max-height: 300px;
 }
 
 /* Artist Buttons */
@@ -562,13 +540,11 @@ main p {
 }
 
 .artist-gallery img {
-  width: 80px;
-  height: 60%;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
-  max-width: 50%;
+  max-width: 100%;
+  height: auto; 
+  display: flex;
+  margin: 20px 0;
+   max-height: 300px;
 }
 
 .artist-gallery img:hover {
