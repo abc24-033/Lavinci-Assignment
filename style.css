@@ -47,6 +47,7 @@ nav a {
 .logo img {
   height: 50px;
   width: auto;
+  align: left-margin;
 }
 nav a:hover {
   color: #d2691e;
