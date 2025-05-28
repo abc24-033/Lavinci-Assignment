@@ -44,11 +44,9 @@ nav a {
   font-weight: bold;
   transition: color 0.3s ease;
 }
-  /*Lavinci Logo*/
 .logo img {
   height: 50px;
   width: auto;
-  align: left-margin;
 }
 nav a:hover {
   color: #d2691e;
